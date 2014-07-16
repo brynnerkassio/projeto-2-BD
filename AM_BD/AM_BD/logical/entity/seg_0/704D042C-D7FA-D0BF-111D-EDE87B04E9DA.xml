@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="704D042C-D7FA-D0BF-111D-EDE87B04E9DA" name="AREA_COMERCIAL">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 00:31:34 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_comercial" id="951F24C5-48ED-BBAA-DA11-B32E4A01754C">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 00:32:49 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+</Attribute>
+<Attribute name="cod_area" id="42F1780B-26EA-ED12-5A97-4DB372C764BE">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:17:51 UTC</createdTime>
+<generatorID>D7A8B307-7A91-E11C-5CAA-48059426FFA8</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>AFD84A7C-0C1A-00EA-B5D2-C8FE1EFFBDE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2B6475E-24E1-19F2-6A98-542E6198FE3E" name="COMERCIAL PK">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 00:33:05 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>951F24C5-48ED-BBAA-DA11-B32E4A01754C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

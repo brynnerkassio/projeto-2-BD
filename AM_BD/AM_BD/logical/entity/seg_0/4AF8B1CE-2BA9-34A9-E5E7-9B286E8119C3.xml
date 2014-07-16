@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AF8B1CE-2BA9-34A9-E5E7-9B286E8119C3" name="ADVOGADO">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:22:32 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="EC06AB67-A721-DD60-9B06-4435EC0C7451">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:22:51 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+<Attribute name="nome" id="29AA1983-3074-8605-C605-D855D9B7DEC6">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:23:28 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+</Attribute>
+<Attribute name="numero_oab" id="2135B0BC-B4E1-3B21-C8BF-F03BCCE780C1">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:23:36 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+<Attribute name="cpf" id="4ABFCB38-2EA2-6695-E269-B724D45B385B">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:23:59 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+</Attribute>
+<Attribute name="rg" id="879E2496-64A8-757E-F681-11CC36F7F904">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:24:10 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+</Attribute>
+<Attribute name="email" id="CEA3F144-A04F-0944-D01B-1DB058CE5D33">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:24:17 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="670EF3C8-5ED5-8A1F-8FE6-8ADB283D7461" name="ADVOGADO PK">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:25:50 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC06AB67-A721-DD60-9B06-4435EC0C7451</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

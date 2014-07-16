@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B330CFF-A9C8-5604-1FB7-A7E954B8FEB6" name="TIPO_TAREFA">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:28:55 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="27C4133B-8DD1-3592-7C93-1D87FA87CB52">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:29:51 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="descricao" id="11F92C54-D4A7-8B21-73C6-12F704CA4E65">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:29:58 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+</Attribute>
+<Attribute name="codigo1" id="D97A44B4-763B-0638-8526-03BE261213C0">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:19:52 UTC</createdTime>
+<generatorID>D624CB77-EBFE-1515-ADBC-32F85B7B24DF</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>EC06AB67-A721-DD60-9B06-4435EC0C7451</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="448C2221-D756-CC80-C619-E8F6E05ECAC2" name="TIPO_TAREFA PK">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:35:38 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27C4133B-8DD1-3592-7C93-1D87FA87CB52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

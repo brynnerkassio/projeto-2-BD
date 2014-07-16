@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C451E594-823A-ADD3-E17B-CBC0B85B13E8" name="FISICA">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:08:53 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="68A28AA1-D412-F4DB-2D38-EF6EC3FC57C8">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:09:10 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+</Attribute>
+<Attribute name="rg" id="DE386D9A-A553-6176-292E-FF1E87F38AFA">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:09:47 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="cod_pessoa" id="68121EBF-3A56-9C05-0370-977A5F45881E">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:30:48 UTC</createdTime>
+<generatorID>543808E9-A58E-A320-B05E-023CFAD246E5</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>F987FE41-F79B-C64D-55A7-E6B56CD45E7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1CDEE41-9FC3-7A99-90D6-8E01B9535AA5" name="FISICA PK">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:23:28 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68A28AA1-D412-F4DB-2D38-EF6EC3FC57C8</attributeRef>
+<attributeRef>68121EBF-3A56-9C05-0370-977A5F45881E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

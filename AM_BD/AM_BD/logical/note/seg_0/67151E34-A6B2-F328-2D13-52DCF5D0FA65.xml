@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Note class="oracle.dbtools.crest.model.design.Note" name="Note_3" directorySegmentName="seg_0" id="67151E34-A6B2-F328-2D13-52DCF5D0FA65">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 01:07:10 UTC</createdTime>
+<comment>Nome Brynner Kassio   RM 70271&lt;br/&gt;Nome Janaina Campos RM 72362 &lt;br/&gt;Nome Lucas Rezende   RM 71413&lt;br/&gt;Nome Rean Cavalheiro RM 71800&lt;br/&gt;</comment>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+</Note>

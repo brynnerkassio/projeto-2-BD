@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09410DA1-B05A-7802-A9FB-215C51DFA40F" name="TELEFONE_COMERCIAL">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:13:52 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_comercial" id="947F2433-EFBE-32C7-EBB0-7A9C3FA92E2F">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:13:57 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="numero_comercial" id="9810A71D-B8FE-2777-543D-6B4365EE1FF4">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:14:04 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="cod_telefone" id="D6799A04-46C6-2AE4-DDE0-FF3A71CEE2EB">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:18:13 UTC</createdTime>
+<generatorID>E9E2A809-5D2E-146F-6535-B2450906FBD6</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>DB955E09-25F8-580D-6AE5-F80E7D2A6369</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17DC238D-803D-8B43-6976-FCD47D1E418D" name="COMERCIAL PK">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:14:01 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>947F2433-EFBE-32C7-EBB0-7A9C3FA92E2F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC0D9F57-D54D-51AD-039A-D5FF41489E72" name="CADASTRAR_PROCESSO">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:54:24 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_processo" id="1645FC46-A4B0-DB9D-FB0A-6C3CA8BB9DD3">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:54:40 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="descricao" id="51DA78C8-96DD-8CF5-176A-A52BBF0BE825">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:56:44 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+</Attribute>
+<Attribute name="data_abertura" id="EDAECB39-3353-78BE-F39B-0941519D2C42">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:57:02 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="data_fechamento" id="C56DD6AD-FE72-B425-0782-9766CF806E20">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:58:26 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="vcimento_pagamento" id="333CF3AF-58AC-C326-6B38-28237F5E8FE0">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:58:51 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="resultado_causa" id="BF34B2C8-7FAB-8706-3C7B-7C090A055C8C">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 23:00:00 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+</Attribute>
+<Attribute name="observacao" id="4B85C50F-3FF8-EDBA-3097-92FAF55A7728">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 23:01:35 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+</Attribute>
+<Attribute name="situacao" id="83908DF1-ECE3-3EFF-501B-7412EA21F517">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 23:09:01 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+</Attribute>
+<Attribute name="cod_status" id="2EA70230-35A1-69F7-E8DD-F5CE042F9690">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 01:01:18 UTC</createdTime>
+<generatorID>894F68B5-16D9-A2C8-03D9-0AF3987F22EA</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>0F6BADE9-2149-B810-1D5C-12F5925EFC6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+</Attribute>
+<Attribute name="codigo" id="9F150860-9313-7BD5-BC97-028BBE0A4216">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 01:02:36 UTC</createdTime>
+<generatorID>E3CB2A6F-759B-9012-C63D-B27C79A5813C</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EC06AB67-A721-DD60-9B06-4435EC0C7451</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D8A7FC8-690F-3691-9A04-305019BC3568" name="CADASTRAR_PROCESSO PK">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:55:47 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1645FC46-A4B0-DB9D-FB0A-6C3CA8BB9DD3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

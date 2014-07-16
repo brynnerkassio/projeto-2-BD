@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D411B62-A015-6891-8D54-E895305CECDA" name="CADASTRAR_VALOR">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:50:03 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="4A8B3557-F182-3466-8CE8-4927448A3624">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:50:41 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+</Attribute>
+<Attribute name="data_vigencia" id="AC104115-1B24-4BDC-BE06-99E7D8DCAF87">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:51:01 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="data_valor" id="C8E6E4AF-3462-0156-1C41-4A22E5B029E1">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:52:21 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="codigo1" id="BAA5FA4D-86C9-51DD-491F-3F704E7CAEA1">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 00:26:01 UTC</createdTime>
+<generatorID>E2B10392-6EAD-9E43-DF15-DB30765D4F78</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>EC06AB67-A721-DD60-9B06-4435EC0C7451</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29FC10EA-6D3F-29DF-47BF-E583876C937B" name="CADASTRAR_VALOR PK">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:52:46 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A8B3557-F182-3466-8CE8-4927448A3624</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

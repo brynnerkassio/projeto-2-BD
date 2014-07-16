@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1ADDFE35-F89A-B3B6-2C9C-0F8C9F369802" name="TELEFONE_CELULAR">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:15:10 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_celular" id="40F0D3E4-79A4-4CBA-EEB9-65323BECE486">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:15:14 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="numero_celular" id="B29C09CE-ACDF-577F-BEBC-C30D199B0F42">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:15:18 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+</Attribute>
+<Attribute name="cod_telefone" id="B46FFEAA-2016-02E4-65CE-C8B4667669F9">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:18:17 UTC</createdTime>
+<generatorID>443C2CFE-D747-D2D5-CD30-95EF705F153F</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>DB955E09-25F8-580D-6AE5-F80E7D2A6369</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FC09991-4FCC-A8E0-FD68-931EF802C7F4" name="TELEFONE_CELULAR PK">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:15:17 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40F0D3E4-79A4-4CBA-EEB9-65323BECE486</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

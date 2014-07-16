@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D40B2187-9E3A-D207-9EFD-920F8F829E46" name="LOGRADOURO">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 23:31:38 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cep" id="EB9390FC-00B0-71D6-88E8-29947D8D1044">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 23:31:43 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="logradouro" id="DA9919B2-E9C8-2C3A-5EBE-17B19DD91DFF">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 23:31:49 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+</Attribute>
+<Attribute name="cod_bairro" id="5CE1B4E8-420F-3DB8-B552-DF83FD74544B">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:38:22 UTC</createdTime>
+<generatorID>7B359994-94AD-87E5-78E8-2AFE286E5F43</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>5BCCA2C4-A24E-0F1E-E39C-2B5A7625791C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+</Attribute>
+<Attribute name="cod_pessoa" id="A34EF5AE-69A0-9072-AE53-D6B63E027C6C">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:39:45 UTC</createdTime>
+<generatorID>A813E577-0FEC-24E5-4A4D-5B9DB21FAAF2</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>F987FE41-F79B-C64D-55A7-E6B56CD45E7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+</Attribute>
+<Attribute name="cod_logradouro" id="51951A37-1A3A-8F80-D36E-84839A671FB6">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:40:54 UTC</createdTime>
+<generatorID>EA58B62A-A03A-448A-D5EA-1ECBCEA701EB</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>5ED61287-C7FE-37CE-1BDE-D739EE8DF6CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="558AFD68-9F62-4951-31FA-1DD56498BC87" name="endereco PK">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 23:31:48 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB9390FC-00B0-71D6-88E8-29947D8D1044</attributeRef>
+<attributeRef>A34EF5AE-69A0-9072-AE53-D6B63E027C6C</attributeRef>
+<attributeRef>51951A37-1A3A-8F80-D36E-84839A671FB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

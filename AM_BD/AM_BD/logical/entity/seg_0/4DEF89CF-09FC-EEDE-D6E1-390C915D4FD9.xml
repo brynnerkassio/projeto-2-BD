@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DEF89CF-09FC-EEDE-D6E1-390C915D4FD9" name="TELEFONE_RESIDENCIAL">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:11:17 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_residencial" id="7F94FE68-7B34-964D-DC5D-DD51F4A49DF0">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:11:22 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+<Attribute name="numero_residencial" id="1A02F86D-C9C3-BF23-9C3A-D0E78B1F880B">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:11:27 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+<Attribute name="cod_telefone" id="8A1E66E4-1926-617F-97D6-B671BC37F548">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:18:09 UTC</createdTime>
+<generatorID>2CE89571-BB07-F709-0FD6-B1B1267A04D4</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>DB955E09-25F8-580D-6AE5-F80E7D2A6369</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="684497A9-3332-CC8B-039F-6FCB4A0A3CD7" name="RESIDENCIAL PK">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 01:11:26 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F94FE68-7B34-964D-DC5D-DD51F4A49DF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

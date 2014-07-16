@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57D76384-A6D6-D4A7-E911-3739ABB9913B" name="TIPO_DESPESA">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:32:53 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="747718D8-F76F-5BC8-87F6-8AB03870F86A">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:33:22 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+</Attribute>
+<Attribute name="descricao" id="772F983E-991B-3B00-C13D-3DC52C71F336">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:34:24 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+</Attribute>
+<Attribute name="codigo1" id="20B914B7-EC30-6232-B856-76A0477E2C55">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-20 00:48:56 UTC</createdTime>
+<generatorID>98FF43F6-1131-4E3D-928C-22AEB274C087</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>EC06AB67-A721-DD60-9B06-4435EC0C7451</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="075DAC94-C81F-0F2D-FD4F-17D44709F221" name="TIPO_DESPESA PK">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:34:15 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>747718D8-F76F-5BC8-87F6-8AB03870F86A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

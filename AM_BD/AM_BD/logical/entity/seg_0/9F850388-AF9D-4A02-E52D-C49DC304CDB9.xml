@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F850388-AF9D-4A02-E52D-C49DC304CDB9" name="CAUSA">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:54:58 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo_causa" id="A38CB5F9-115B-18F9-B7DF-742289396FBB">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:55:48 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="causa_ganha" id="0CF47C81-3505-0EBB-AD8C-FF2DE1A0A02A">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:59:04 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="causa_perdida" id="96064CD7-9462-4C40-AC29-18348AB6CBE4">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:59:25 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="cod_status" id="45857FDD-CFE3-5497-1663-607980E28EFD">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 01:01:18 UTC</createdTime>
+<generatorID>8C3F88A3-9E9B-83DD-E0AA-46CD6EB0D241</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>0F6BADE9-2149-B810-1D5C-12F5925EFC6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99C1D9E4-2BDD-6F54-FA67-BB6FB39AE5E7" name="CAUSA PK">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:55:31 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A38CB5F9-115B-18F9-B7DF-742289396FBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

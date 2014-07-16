@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E90FA15F-D6E1-638E-BE73-0CA2277833D8" name="FORUNS">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:41:37 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="E691BFE8-B7EE-8C7F-2B9F-A702CB4D5262">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:41:53 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+<Attribute name="nome" id="9FEEF9F5-F250-1F47-1BB1-8822FD7602DE">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:42:31 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+</Attribute>
+<Attribute name="cnpj" id="0D2A7C22-45FA-81D9-2A2A-FCCF683C56A0">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:49:36 UTC</createdTime>
+<generatorID>CE09DC17-3C7D-E6DE-7649-4FC376B8235A</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>8813E3E9-C3E7-9FC3-DA9C-46C9494F6DC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="854A7EF6-3A73-D1AD-C725-E676918280D7" name="FORUNS PK">
+<createdBy>rm71413</createdBy>
+<createdTime>2014-05-19 22:42:17 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E691BFE8-B7EE-8C7F-2B9F-A702CB4D5262</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

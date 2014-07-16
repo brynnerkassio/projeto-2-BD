@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9933DE93-A6E3-918F-45C6-8DF544CCEA13" name="ESPECIALIDADE">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:43:51 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_especialidade" id="A05BA0C8-BE94-5DB1-EBDC-E6E60E09038C">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:44:07 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+</Attribute>
+<Attribute name="codigo" id="9D76070B-36B9-2058-B3ED-5E2885DDAADD">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:45:10 UTC</createdTime>
+<generatorID>26ECDB7F-EF31-5C12-913F-13565860A226</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>EC06AB67-A721-DD60-9B06-4435EC0C7451</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="018A3837-7647-473E-233F-B311526C8AC7" name="ESPECIALIDADE PK">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:44:16 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A05BA0C8-BE94-5DB1-EBDC-E6E60E09038C</attributeRef>
+<attributeRef>9D76070B-36B9-2058-B3ED-5E2885DDAADD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

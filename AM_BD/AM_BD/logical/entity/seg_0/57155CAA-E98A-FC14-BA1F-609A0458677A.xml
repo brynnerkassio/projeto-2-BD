@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57155CAA-E98A-FC14-BA1F-609A0458677A" name="PESSOA">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:14:43 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_pessoa" id="F987FE41-F79B-C64D-55A7-E6B56CD45E7B">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:14:50 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+</Attribute>
+<Attribute name="cod_endereco" id="4C4D0E24-FBAD-FBBB-00E4-F99545A41289">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:15:16 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+</Attribute>
+<Attribute name="cod_telefone" id="30C7FF4D-1702-F93F-EA43-6DBF1DCCC426">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:15:33 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+</Attribute>
+<Attribute name="email" id="E158BC6E-D8B9-6A12-3ACA-AFE4D4733170">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:17:10 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+</Attribute>
+<Attribute name="cod_cidade" id="A090A3C1-397F-446C-7408-F5C43E841F8D">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:29:28 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+<Attribute name="cnpj" id="CE411CDB-35F1-642A-7320-87F5C0734899">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:49:13 UTC</createdTime>
+<generatorID>E7F66AE3-2F9C-19D8-E135-E577BCCF7FDB</generatorID>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<referedAttribute>8813E3E9-C3E7-9FC3-DA9C-46C9494F6DC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE11883F-BFF1-AA98-BF6F-006A69E1D653" name="pessoa PK">
+<createdBy>jana.psc</createdBy>
+<createdTime>2014-05-23 00:18:00 UTC</createdTime>
+<ownerDesignName>AM_BD</ownerDesignName>
+<engineerTo>
+<item key="57999503-C7F3-A203-A64F-746E8031800F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F987FE41-F79B-C64D-55A7-E6B56CD45E7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
